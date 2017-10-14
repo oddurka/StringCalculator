@@ -14,6 +14,6 @@ public class UnitTester
         assertEquals("Must be 3: ", 10, sc.add("1,2,3,4"));
         assertEquals("Must be 3: ", 15, sc.add("1,2,3,4,5"));
         assertEquals("Must be 3: ", 21, sc.add("1,2,3,4,5,6"));
-        assertEquals("Must be 3: ", 55, sc.add("1,2,3,4,5,6,7,8,9,10"));
+        assertEquals("Must be 3: ", 55, sc.add("1\n2,3\n4,5,6\n7,8,9,10"));
     }
 }
